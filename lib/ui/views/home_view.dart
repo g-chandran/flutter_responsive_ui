@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
-import '../base_widget.dart';
+import '../../responsive/responsive_builder.dart';
 
 class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return BaseWidget(
+    return ResponsiveBuilder(
       builder: (context, sizingInformation) {
         return Scaffold(
           body: Center(
@@ -15,7 +15,7 @@ class HomeView extends StatelessWidget {
                 Container(
                     color: Colors.blue,
                     height: 200,
-                    child: BaseWidget(
+                    child: ResponsiveBuilder(
                       builder: (context, sizingInformation) =>
                           Text(sizingInformation.toString()),
                     )),
