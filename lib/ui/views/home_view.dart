@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_responsive_test/ui/views/home_view_tablet.dart';
 
 import '../../responsive/orientation_layout.dart';
 import '../../responsive/screen_type_layout.dart';
@@ -12,6 +13,7 @@ class HomeView extends StatelessWidget {
         portrait: HomeMobilePortrait(),
         landscape: HomeMobileLandscape(),
       ),
+      tablet: HomeViewTablet(),
     );
   }
 }
