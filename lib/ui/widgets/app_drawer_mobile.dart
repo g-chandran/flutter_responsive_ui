@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_responsive_test/ui/widgets/app_drawer.dart';
+
+import 'app_drawer.dart';
 
 class AppDrawerMobile extends StatelessWidget {
   @override

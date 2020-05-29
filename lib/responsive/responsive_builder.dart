@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_responsive_test/utils/ui_utils.dart';
 
+import '../utils/ui_utils.dart';
 import 'sizing_information.dart';
 
 class ResponsiveBuilder extends StatelessWidget {

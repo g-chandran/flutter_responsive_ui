@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_responsive_test/ui/widgets/app_drawer.dart';
+
+import '../widgets/app_drawer.dart';
 
 class HomeViewTablet extends StatelessWidget {
   @override

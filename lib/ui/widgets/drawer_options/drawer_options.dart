@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_responsive_test/responsive/orientation_layout.dart';
-import 'package:flutter_responsive_test/responsive/screen_type_layout.dart';
-import 'package:flutter_responsive_test/ui/widgets/drawer_options/drawer_option_mobile.dart';
-import 'package:flutter_responsive_test/ui/widgets/drawer_options/drawer_option_tablet.dart';
+
+import '../../../responsive/orientation_layout.dart';
+import '../../../responsive/screen_type_layout.dart';
+import 'drawer_option_mobile.dart';
+import 'drawer_option_tablet.dart';
 
 class DrawerOption extends StatelessWidget {
   final IconData iconData;

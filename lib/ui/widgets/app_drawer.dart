@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_responsive_test/ui/widgets/drawer_options/drawer_options.dart';
 
 import '../../responsive/orientation_layout.dart';
 import '../../responsive/screen_type_layout.dart';
 import 'app_drawer_mobile.dart';
 import 'app_drawer_tablet.dart';
+import 'drawer_options/drawer_options.dart';
 
 class AppDrawer extends StatelessWidget {
   @override

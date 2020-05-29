@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_responsive_test/enums/device_screen_type.dart';
-import 'package:flutter_responsive_test/responsive/responsive_builder.dart';
+
+import '../enums/device_screen_type.dart';
+import 'responsive_builder.dart';
 
 class ScreenTypeLayout extends StatelessWidget {
   final Widget mobile, desktop, tablet;
